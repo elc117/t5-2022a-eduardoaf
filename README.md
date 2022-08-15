@@ -41,7 +41,7 @@ Exemplo condição de corrida solucionado com Mutex:
 
 ![image](https://user-images.githubusercontent.com/93085789/184675563-b63f0b80-d719-46e4-8b9a-9eb267e26cdb.png)
 
-**Mutual Exclusion(Mutex) impede a execução simultânea de uma seção crítica do código, funciona como um mecanismo de trava e destrava. Quando o mutex for bloqueado a thread em execução possuíra unicamente o recurso até ser desbloqueado, nenhuma outra thread é executada até o desbloqueio**
+**Mutual Exclusion(Mutex) impede a execução simultânea de uma seção crítica do código, funciona como um mecanismo de trava e destrava. Quando o mutex for bloqueado a thread em execução possuíra unicamente o recurso até ser desbloqueado, nenhuma outra thread é executada até o desbloqueio.**
 
 
 
