@@ -32,3 +32,16 @@ Exemplo passando argumentos para a thread:
 
 Exemplo condição de corrida:
 
+![image](https://user-images.githubusercontent.com/93085789/184673709-8ddb0148-159c-41e2-9f46-393a3c4f83cd.png)
+
+**Como o acesso ao inteiro não é sincrozinado o resultado será imprevisível, os encadeamentos podem se intercalar um com o outro. **
+
+Exemplo condição de corrida solucionado com Mutex:
+
+![image](https://user-images.githubusercontent.com/93085789/184675563-b63f0b80-d719-46e4-8b9a-9eb267e26cdb.png)
+
+
+**blabla**
+
+
+
