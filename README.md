@@ -43,5 +43,18 @@ Exemplo condição de corrida solucionado com Mutex:
 
 **Mutual Exclusion(Mutex) impede a execução simultânea de uma seção crítica do código, funciona como um mecanismo de trava e destrava. Quando o mutex for bloqueado a thread em execução possuíra unicamente o recurso até ser desbloqueado, nenhuma outra thread é executada até o desbloqueio.**
 
+## **C#**
+Também oferece suporte a todos os blocos primitivos de concorrência(Locks, Threads, Semáfaros, Monitores, dentre outros)
 
+Exemplo de concorrência com duas threads:
+
+![image](https://user-images.githubusercontent.com/93085789/184735165-f9962f00-269b-4150-8d11-5f8858468a5c.png)
+
+**A saída do programa pode ser diferente em cada execução, a execução das duas threads pode acontecer em qualquer sequência, pois as duas threads estão executando ao mesmo tempo até Join().**
+
+Exemplo de uso do lock:
+
+![image](https://user-images.githubusercontent.com/93085789/184737831-3355b3e2-5f01-4dbb-bfb8-2272722445df.png)
+
+**O lock impede que outra thread acesse ao mesmo tempo determinada parte do código. O desbloqueio acontece após o término da execução.**
 
