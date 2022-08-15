@@ -35,7 +35,7 @@ Exemplo condição de corrida:
 
 ![image](https://user-images.githubusercontent.com/93085789/184673709-8ddb0148-159c-41e2-9f46-393a3c4f83cd.png)
 
-**Como o acesso ao inteiro não é sincrozinado o resultado será imprevisível, os encadeamentos podem se intercalar um com o outro. **
+**Como o acesso ao inteiro não é sincrozinado o resultado será imprevisível, os encadeamentos podem se intercalar um com o outro.**
 
 Exemplo condição de corrida solucionado com Mutex:
 
@@ -57,4 +57,3 @@ Exemplo de uso do lock:
 ![image](https://user-images.githubusercontent.com/93085789/184737831-3355b3e2-5f01-4dbb-bfb8-2272722445df.png)
 
 **O lock impede que outra thread acesse ao mesmo tempo determinada parte do código. O desbloqueio acontece após o término da execução.**
-
