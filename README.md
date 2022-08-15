@@ -2,7 +2,8 @@
 
 Com a relativa desaceleração na evolução do núcleo dos processadores, os desenhistas de CPU, a cada geração, implementam mais núcleos dentro de um mesmo processador. Isso criou uma nova conjuntura para os programadores, para criar códigos eficientes com alto desempenho e acompanhar o avanço do hardware é necessário pensar na implementação do código de forma paralelizável. Da mesma forma, as linguagens de programação não ficaram paradas no tempo e muitas suportam o multithreading. Veja como ocorre a implementação e note as diferenças em cada linguagem:
 
-C++ oferece suporte a todos os blocos primitivos de concorrência(Threads, Semáfaros, Monitores, Locks, dentre outros)
+## **C++**
+oferece suporte a todos os blocos primitivos de concorrência(Threads, Semáfaros, Monitores, Locks, dentre outros)
 
 Começando com um exemplo simples: 
 
@@ -40,8 +41,7 @@ Exemplo condição de corrida solucionado com Mutex:
 
 ![image](https://user-images.githubusercontent.com/93085789/184675563-b63f0b80-d719-46e4-8b9a-9eb267e26cdb.png)
 
-
-**blabla**
+**Mutual Exclusion(Mutex) impede a execução simultânea de uma seção crítica do código, funciona como um mecanismo de trava e destrava. Quando o mutex for bloqueado a thread em execução possuíra unicamente o recurso até ser desbloqueado, nenhuma outra thread é executada até o desbloqueio**
 
 
 
